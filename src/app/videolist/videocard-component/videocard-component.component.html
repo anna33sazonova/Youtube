@@ -1,0 +1,11 @@
+<div class="videocard">
+    <img class="video-thumbnail" alt="Video thumbnail" [src]="videoListItemChild.videoThumbnail" />
+  <div class="videocard-body">
+    <div>
+      <img class="channel-logo-small" [src]="videoListItemChild.channelLogo" />
+    </div>
+    <div class="videocard-content">
+      <h3>{{videoListItemChild.videoTitle | slice:0:50}}...</h3>
+    <div>{{videoListItemChild.channelName}}</div>
+<div>{{videoListItemChild.viewNumber}} · {{videoListItemChild.uploadDate}}</div></div></div>
+</div>

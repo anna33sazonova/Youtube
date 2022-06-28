@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'YoutubeProject';
+
+public parentData: string = "";
+
+  loadDataFromParent(searchBarData: string): void {
+    this.parentData = searchBarData;
+  }
+
 }

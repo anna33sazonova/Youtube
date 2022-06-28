@@ -1,0 +1,36 @@
+.videocard {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+h3 {
+color: black;
+font-weight: bold;
+}
+
+p {
+    color: black
+}
+
+.video-thumbnail {
+width: 300px;
+padding: 10px;
+
+}
+.channel-logo-small {
+    width: 36px;
+}
+
+.videocard-body {
+    display: flex;
+}
+
+.channel-logo-small {
+    width: 100%;
+    border-radius: 50%;
+}
+.videocard-content {
+    display: flex;
+    flex-direction: column;
+}
